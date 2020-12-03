@@ -1,13 +1,14 @@
 import React from 'react'
 import Form from "../Form/Form";
-import treefrog from "../images/treefrog.jpg";
+import background from "../images/background.jpg";
+import styles from "./HomePage.module.css";
 
 const Home = () => {
     return (
         <div>
             The home page
             <h1>I changed this homepage</h1>
-            <img src={treefrog} alt="tree frog" />
+            <img className={styles.homeImg} src={background} alt="blue background" />
             <Form />
         </div>
     )
