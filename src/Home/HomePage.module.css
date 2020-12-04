@@ -1,4 +1,52 @@
+body{
+  background-color: rgb(160, 211, 240);
+}
+
+.homeContainer {
+  max-width: 60em;
+  min-width: 20em;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
 .homeImg {
-    width: 100%;
-    margin-bottom: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.homeTitle {
+  font-weight: bold;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.homeText {
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  .homeTitle {
+    font-size: 20px;
   }
+  .homeText {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .homeTitle {
+    font-size: 22px;
+  }
+  .homeText {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .homeTitle {
+    font-size: 25px;
+  }
+  .homeText {
+    font-size: 20px;
+  }
+}
