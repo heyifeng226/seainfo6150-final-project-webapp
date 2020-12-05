@@ -1,0 +1,61 @@
+.allCategoryContainer {
+    max-width: 35rem;
+    min-width: 20em;
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  .allCategoryDetail {
+    margin-bottom: 30px;
+    font-family: Verdana, Helvetica, sans-serif;
+  }
+  
+  .allCategoryCard {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    border: 2px solid grey;
+    border-radius: 100px;
+    padding: 50px;
+  }
+  
+  .allCategoryImg {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .allCategoryName {
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .allCategoryDetail {
+      font-size: 15px;
+    }
+    .allCategoryName {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .allCategoryDetail {
+      font-size: 18px;
+    }
+    .allCategoryName {
+      font-size: 22px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .allCategoryDetail {
+      font-size: 20px;
+    }
+    .allCategoryName {
+      font-size: 25px;
+    }
+  }
+  

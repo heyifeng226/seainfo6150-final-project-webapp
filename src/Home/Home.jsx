@@ -7,15 +7,11 @@ const Home = () => {
         <div className={styles.homeContainer}>
     <img
         className={styles.homeImg}
-        srcSet="/images/homefood-400.jpg 400w, /images/homefood-600.jpg 600w, /images/homefood-800.jpg 800w"
+        srcSet="/images/homekitchen-400.png 400w, /images/homekitchen-600.png 600w, /images/homekitchen-800.png 800w"
         alt="homepage"
       />
     
       <h1 className={styles.homeTitle}>Welcome to MyRecipes!!!</h1>
-      <p className={styles.homeText}>
-        We have all recipes you need! 
-      </p>
-      <p className={styles.homeText}>Explore our website freely!</p>
     </div>
     )
 }
