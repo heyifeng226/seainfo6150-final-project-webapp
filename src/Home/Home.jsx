@@ -7,7 +7,7 @@ const Home = () => {
         <div className={styles.homeContainer}>
     <img
         className={styles.homeImg}
-        srcSet="/images/homekitchen-400.png 400w, /images/homekitchen-600.png 600w, /images/homekitchen-800.png 800w"
+        src="https://food-images.files.bbci.co.uk/food/recipes/simple_fish_dish_98008_16x9.jpg"
         alt="homepage"
       />
     

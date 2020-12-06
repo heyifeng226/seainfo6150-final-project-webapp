@@ -6,11 +6,11 @@ const Footer = () => {
         <div className={styles.footer}> 
             <img
               className={styles.logo}
-              src="/images/recipe-logo.png"
+              src="https://cdn.imgbin.com/5/24/23/imgbin-chef-s-uniform-icon-chef-chef-hat-illustration-jtTMYSpLDGAG8eBgfNTWJP5pP.jpg"
               alt="myrecipes logo"
             />
             <p className={styles.text}> 
-            ©2020-{new Date().getFullYear()} MyRecipes, by Heyi Feng
+            ©2020-{new Date().getFullYear()} MyRecipes
             </p>
         </div>
     )
