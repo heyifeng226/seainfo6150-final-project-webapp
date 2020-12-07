@@ -10,7 +10,7 @@
       "one": "In a large saucepan, heat butter over medium-high heat; saute mushrooms and onion until tender.",
       "two": "Mix flour, salt, pepper and 1 can broth until smooth; stir into mushroom mixture. Stir in remaining broth. Bring to a boil; cook and stir until thickened, about 2 minutes. Reduce heat; stir in cream. Simmer, uncovered, until flavors are blended, about 15 minutes, stirring occasionally."
     },
-    "imageURL": "/images/cream-of-mushoom-soup.jpg",
+    "imageURL": "https://www.budgetbytes.com/wp-content/uploads/2017/09/Creamy-Garlic-Mushroom-Soup-spoon.jpg",
     "detailURL": "/category/1/1",
     "categoryURL": "/category/1"
   },
@@ -25,7 +25,7 @@
       "one": "In a Dutch oven, brown chicken and onion in butter until chicken is no longer pink. Add garlic; cook 1 minute longer. Add the water, bouillon and cumin; bring to a boil. Reduce heat; cover and simmer for 5 minutes.",
       "two": "Stir in the cream, cheese, corn, chiles and hot pepper sauce. Cook and stir over low heat until cheese is melted; add tomato. If desired, top with cilantro and tortilla strips."
     },
-    "imageURL": "/images/mexican-chicken-corn-chowder.jpg",
+    "imageURL": "https://myfoodstory.com/wp-content/uploads/2017/11/Instant-Pot-Chicken-Potato-Corn-Chowder-with-Bacon-Pressure-Cooker-Recipe-2.jpg",
     "detailURL": "/category/1/2",
     "categoryURL": "/category/1"
   },
@@ -40,69 +40,68 @@
       "one": "In a large saucepan, combine first 4 ingredients and 5-1/2 cups broth. Bring to a boil; cook 3 minutes.",
       "two": "In a small bowl, mix cornstarch and remaining broth until smooth; gradually stir into soup. Bring to a boil; cook and stir until thickened, 1-2 minutes. Remove from heat; stir in lemon juice and cilantro."
     },
-    "imageURL": "/images/lemony-turkey-rice-soup.jpg",
+    "imageURL": "https://www.feedyoursoul2.com/wp-content/uploads/2014/12/20-5001.jpg",
     "detailURL": "/category/1/3",
     "categoryURL": "/category/1"
   },
-  "Best Ever Potato Soup": {
+  "Catherine's Spicy Chicken Soup": {
     "categoryID": "1",
     "recipeID": "4",
     "categoryName": "Soup",
-    "name": "Best Ever Potato Soup",
-    "description": "An easy and delicious creamy potato soup recipe that can be made in just one pot! Loaded with bacon and creamy potato goodness, this is a favorite comfort food in household.",
-    "ingredients": "6 bacon strips, 3 cups cubed peeled potatoes, 1 small carrot, 1/2 cup chopped onion, 1 tablespoon dried parsley flakes, 1/2 teaspoon salt, 1/2 teaspoon pepper, 1/2 teaspoon celery seed, 1 can (14-1/2 ounces) chicken broth, 3 tablespoons all-purpose flour, 3 cups 2% milk, 8 ounces process cheese (Velveeta), 2 green onions",
+    "name": "Catherine's Spicy Chicken Soup",
+    "description": "This is a great recipe that you can fix to your taste! The longer it simmers the better. Top with crushed tortilla chips and shredded cheese.",
+    "ingredients": "8 skinless, boneless chicken breast halves, 1 teaspoon ground black pepper, 2 tablespoons dried parsley, 1/2 cup chopped onion, 5 cubes chicken bouillon, 1/2 teaspoon salt, 1/2 teaspoon pepper, 1 (14.5 ounce) can whole peeled tomatoes, 1 (15 ounce) can whole kernel corn, drained, 1 (8 ounce) container sour cream, 3 cups 2% milk, 8 ounces process cheese (Velveeta), 2 green onions",
     "details": {
-      "one": "In a large saucepan, cook bacon over medium heat until crisp, stirring occasionally; drain drippings. Add vegetables, seasonings and broth; bring to a boil. Reduce heat; simmer, covered, until potatoes are tender, 10-15 minutes.",
-      "two": "Mix flour and milk until smooth; stir into soup. Bring to a boil, stirring constantly; cook and stir until thickened, about 2 minutes. Stir in cheese until melted. If desired, serve with green onions."
+      "one": "In a large pot over medium heat, combine water, chicken, salt, pepper, garlic powder, parsley, onion powder and bouillon cubes. Bring to a boil, then reduce heat and simmer 1 hour, or until chicken juices run clear. Remove chicken, reserve broth. Shred chicken.",
+      "two": "In a large pot over medium heat, cook onion and garlic in olive oil until slightly browned. Stir in salsa, diced tomatoes, whole tomatoes, tomato soup, chili powder, corn, chili beans, sour cream, shredded chicken and 5 cups broth. Simmer 30 minutes."
     },
-    "imageURL": "/images/best-ever-potato-soup.jpg",
+    "imageURL": "https://4.bp.blogspot.com/-dIaw8mBROlc/VrO0809JQJI/AAAAAAAAADM/J40SkJfH1RA/s1600/img22.jpg",
     "detailURL": "/category/1/4",
     "categoryURL": "/category/1"
   },
-  "Tuscan Cauliflower Soup": {
+  "Broccoli Cheese Soup": {
     "categoryID": "1",
     "recipeID": "5",
     "categoryName": "Soup",
-    "name": "Tuscan Cauliflower Soup",
-    "description": "A classic Tuscan soup has lots of potatoes, but it's in the low-carb way with cauliflower. Turns out, it has a heartier flavor.",
-    "ingredients": "4 cups fresh cauliflowerets (about 14 ounces), 2 cans (14-1/2 ounces each) reduced-sodium chicken broth, 2 cups water, 2 garlic cloves, minced, 1 pound bulk Italian sausage, 1 cup sliced fresh mushrooms, 1 cup heavy whipping cream, 1/4 teaspoon pepper, 1/2 pound bacon strips",
+    "name": "Broccoli Cheese Soup",
+    "description": "This is a great, very flavorful soup. Good for serving at luncheons or special gatherings with a quiche. To make this soup a little fancier, add 1 cup sliced mushrooms and 1 cup white wine with the onions.",
+    "ingredients": "1 (16 ounce) package frozen chopped broccoli, 2 cans (14-1/2 ounces each) reduced-sodium chicken broth, 2 cups water, 2 garlic cloves, minced, 1 onion, chopped, 1 cup sliced fresh mushrooms, 1 cup heavy whipping cream, 1/4 teaspoon pepper, 1/2 pound bacon strips",
     "details": {
-      "one": "In a large saucepan, combine cauliflower, broth, water and garlic; bring to a boil. Simmer, uncovered, until cauliflower is tender, 12-15 minutes.",
-      "two": "Meanwhile, in a large skillet, cook sausage and mushrooms over medium heat until sausage is no longer pink, breaking up sausage into crumbles, 6-8 minutes. Remove with a slotted spoon; drain on paper towels.",
-      "three": "Add sausage and mushrooms to cauliflower mixture; return to a boil. Reduce heat; simmer, uncovered, 5 minutes. Stir in cream and pepper; heat through. Serve with bacon."
+      "one": "In a stockpot, melt butter over medium heat. Cook onion in butter until softened. Stir in broccoli, and cover with chicken broth. Simmer until broccoli is tender, 10 to 15 minutes.",
+      "two": "Reduce heat, and stir in cheese cubes until melted. Mix in milk and garlic powder.",
+      "three": "In a small bowl, stir cornstarch into water until dissolved. Stir into soup; cook, stirring frequently, until thick."
     },
-    "imageURL": "/images/tuscan-cauliflower-soup.jpg",
+    "imageURL": "https://www.shugarysweets.com/wp-content/uploads/2017/01/copycat-panera-broccoli-cheese-soup-1-600x400.jpg",
     "detailURL": "/category/1/5",
     "categoryURL": "/category/1"
   },
-  "Curried Peanut Dip": {
+  "Won Ton Bites": {
     "categoryID": "2",
     "recipeID": "1",
     "categoryName": "Appetizer",
-    "name": "Curried Peanut Dip",
-    "description": "A creamy, spicy-sweet dip. It can be paired with leftover roast or rotisserie chicken, jammy eggs, cucumber spears, and roasted sweet potatoes for the perfect desk-friendly lunch.",
-    "ingredients": "1 Tbsp vegetable oil, 1/4 cup jarred red curry paste, 1 14.5-oz. can coconut milk, 1/2 cup creamy peanut butter, 3 Tbsp unseasoned rice vinegar, 1 Tbsp fish sauce, 1 Tbsp honey, Kosher salt",
+    "name": "Won Ton Bites",
+    "description": "Cheesy sausage-based filling in little cups made from baked won ton wrappers. The baked cups and filling may be prepared a day or two in advance (store covered in the refrigerator) and assembled shortly before serving.",
+    "ingredients": "1 Tbsp vegetable oil, 1 (16 ounce) package wonton wrappers, 1 pound sausage, 1 cup shredded Monterey Jack cheese, 1 cup shredded Cheddar cheese, 1 cup Ranch-style salad dressing, Kosher salt",
     "details": {
-      "one": "Heat oil in a medium saucepan over medium. Add curry paste and cook, stirring frequently, until paste begins to stick to bottom of saucepan and is very fragrant, 2–3 minutes.",
-      "two": "Whisk in coconut milk and bring to a simmer. Continue to cook, whisking occasionally, until mixture turns darker in color and is slightly reduced, about 3 minutes. Remove saucepan from heat and whisk in peanut butter, vinegar, fish sauce, and honey. Season to taste with salt; it should be well seasoned since the things you are dipping in it may not be (i.e., boiled eggs, cukes, etc.). Let cool to room temperature, then transfer to an airtight portable container and chill."
+      "one": "Preheat oven to 350 degrees F (175 degrees C). Spray a miniature muffin pan with cooking spray. Insert wonton wrappers into the muffin pan so as to form small cups. Bake 5 minutes in the preheated oven. Allow the baked wrappers to cool. Remove from the pan.",
+      "two": "In a medium bowl, mix the sausage, Monterey Jack, Cheddar, black olives and Ranch-style dressing. Fill the baked wonton wrapper cups with the mixture. Bake the filled wonton wrappers 10 to 15 minutes, until the sausage mixture is bubbly and slightly brown. Watch closely so the wonton wrappers do not burn."
     },
-    "imageURL": "/images/curried-peanut-dip.jpg",
+    "imageURL": "https://thecozyapron.com/wp-content/uploads/2015/09/thai-chicken-salad-wonton-cups_thecozyapron_09-20-15_1.jpg",
     "detailURL": "/category/2/1",
     "categoryURL": "/category/2"
   },
-  "Summer Asian Slaw": {
+  "Guacamole": {
     "categoryID": "2",
     "recipeID": "2",
     "categoryName": "Appetizer",
-    "name": "Summer Asian Slaw",
-    "description": "A yummy slaw filled with summer ingredients - fresh herbs & peaches - and tossed in a yummy miso dressing. Perfect for picnics!",
-    "ingredients": "1/4 cup cashew or peanut butter, 2 tablespoons white miso paste, 2 tablespoons lime juice, 1 teaspoon sesame oil, 1 teaspoon grated ginger, 2 to 5 tablespoons water, 6 to 7 cups shredded red and/or green cabbage, mix of peppers, 2 scallions, 1/2 cup chopped cilantro, 1/2 cup fresh basil and/or mint, 2 Thai chiles or 1 serrano pepper, Sea salt, 1/4 cup toasted peanuts and/or sesame seeds, 1 ripe peach",
+    "name": "Guacamole",
+    "description": "A yummy avocado salad - you can make it smooth or chunky depending on your tastes.",
+    "ingredients": "1/4 cup cashew or peanut butter, 3 avocados - peeled, pitted, and mashed, 2 tablespoons lime juice, 1 teaspoon sesame oil, 2 roma (plum) tomatoes, diced, 2 to 5 tablespoons water, ½ cup diced onion, mix of peppers, 2 scallions, 1/2 cup chopped cilantro, 1/2 cup fresh basil and/or mint, 2 Thai chiles or 1 serrano pepper, Sea salt",
     "details": {
-      "one": "Make the dressing: In a small bowl, whisk together the cashew butter, miso paste, lime juice, sesame oil, and ginger. Whisk in enough water to create a drizzable consistency. Set aside.",
-      "two": "In a dry cast-iron skillet over medium heat, char the peppers whole, rotating until the edges have a little char, about 2 minutes per side. Remove. When cool to the touch, slice in half lengthwise, remove the stem, ribbing, and seeds and slice horizontally into thin strips.",
-      "three": "In a large bowl, combine the cabbage, peppers, scallions, cilantro, basil, chiles, and ¾ of the dressing. Toss until combined. Add the remaining dressing, if desired, and season to taste with a few pinches of sea salt. Serve topped with the toasted nuts, seeds, and sliced peaches."
+      "one": "In a medium bowl, mash together the avocados, lime juice, and salt. Mix in onion, cilantro, tomatoes, and garlic.",
+      "two": "Stir in cayenne pepper. Refrigerate 1 hour for best flavor, or serve immediately."
     },
-    "imageURL": "/images/summer-asian-slaw.jpg",
+    "imageURL": "https://www.cookingclassy.com/wp-content/uploads/2018/01/guacamole-12.jpg",
     "detailURL": "/category/2/2",
     "categoryURL": "/category/2"
   },
@@ -118,24 +117,24 @@
       "two": "Mix mayonnaise, vinegar, mustard, salt and pepper in large glass or plastic bowl.",
       "three": "Add potatoes, celery and onion; toss. Stir in eggs. Sprinkle with paprika. Cover and refrigerate at least 4 hours to blend flavors and chill. Store covered in refrigerator."
     },
-    "imageURL": "/images/creamy-potato-salad.jpg",
+    "imageURL": "https://www.fromachefskitchen.com/wp-content/uploads/2019/06/Cool-and-Creamy-Potato-Salad.jpg",
     "detailURL": "/category/2/3",
     "categoryURL": "/category/2"
   },
-  "Stuffed Mushrooms": {
+  "Cheese Stuffed Mushroom": {
     "categoryID": "2",
     "recipeID": "4",
     "categoryName": "Appetizer",
-    "name": "Stuffed Mushrooms",
+    "name": "Cheese Stuffed Mushroom",
     "description": "This easy and elegant appetizer will be devoured at any party. Tender mushroom caps are filled with crispy panko, fresh herbs, and a double dose of cheese for the perfect pre-dinner bite.",
     "ingredients": "24 (2-inch wide) cremini or white button mushrooms (about 1 pound), 3 tablespoons olive oil, 3/4 teaspoon kosher salt, 1/2 teaspoon freshly ground black pepper, 2 small stalks celery, 1 small shallot, 1/4 cup chopped fresh parsley leaves, 2 ounces whole-milk low-moisture mozzarella cheese, 1 ounce Parmesan cheese, 1/4 teaspoon garlic powder, Pinch red pepper flakes (optional), 1/4 cup dry white wine or low-sodium vegetable broth, 1 cup panko breadcrumbs, 1 large egg",
     "details": {
-      "one": "Preheat oven to 400°. Grease a baking sheet with cooking spray. Remove stems from mushrooms and roughly chop stems. Place mushroom caps on baking sheet.",
+      "one": "Heat two large skillets over medium-high heat, melt 3 tablespoons of butter in each of the skillets and divide the mushroom caps between the two. Cook and stir the mushroom caps until the edges are slightly soft, about 5 minutes. Place the mushrooms in a colander to drain and cool.",
       "two": "In a medium skillet over medium heat, melt butter. Add chopped mushrooms stems and cook until most of the moisture is out, 5 minutes. Add garlic and cook until fragrant, 1 minute then add breadcrumbs and let toast slightly, 3 minutes. Season with salt and pepper. Remove from heat and let cool slightly.",
       "three": "In a large bowl mix together mushroom stem mixture, Parmesan, cream cheese, parsley, and thyme. Season with salt and pepper.  Fill mushroom caps with filling and sprinkle with more Parmesan.",
-      "four": "Bake until mushrooms are soft and the tops are golden, 20 minutes."
+      "four": "Place the pan of mushrooms in the preheated oven to broil until golden brown, about 5 minutes."
     },
-    "imageURL": "/images/stuffed-mushrooms.jpg",
+    "imageURL": "https://assets.kraftfoods.com/recipe_images/opendeploy/126812_640x428.jpg",
     "detailURL": "/category/2/4",
     "categoryURL": "/category/2"
   },
@@ -151,41 +150,41 @@
       "two": "Meanwhile, place bacon in a large, deep skillet. Cook over medium-high heat until evenly brown. Alternatively, wrap bacon in paper towels and cook in the microwave for about 1 minute per slice. Crumble and set aside.",
       "three": "Peel the hard-cooked eggs, and cut in half lengthwise. Remove yolks to a small bowl. Mash egg yolks with mayonnaise, crumbled bacon and cheese. Stir in mustard. Fill egg white halves with the yolk mixture and refrigerate until serving."
     },
-    "imageURL": "/images/bacon-cheddar-deviled-eggs.jpg",
+    "imageURL": "https://assets.kraftfoods.com/recipe_images/opendeploy/157029_640x428.jpg",
     "detailURL": "/category/2/5",
     "categoryURL": "/category/2"
   },
-  "Pork Chops with Fig and Grape Agrodolce": {
+  "Seared Sea Scallops": {
     "categoryID": "3",
     "recipeID": "1",
     "categoryName": "Main Course",
-    "name": "Pork Chops with Fig and Grape Agrodolce",
-    "description": "Fresh figs and grapes cooked in balsamic vinegar and honey make an addictively sweet and sour sauce for pork chops in this seasonal fall dinner.",
-    "ingredients": "4 bone-in pork chops, 1 1/2 teaspoons kosher salt, 1 1/4 teaspoon freshly ground black pepper, 4 tablespoons extra-virgin olive oil, 3/4 cup balsamic vinegar, 1/2 teaspoon crushed red pepper flakes (optional), 2 tablespoons plus 1 teaspoon honey, 2 cups seedless red grapes, 8 ounces fresh black Mission figs, 3 sprigs rosemary, 1/4 cup (1/2 stick) cold unsalted butter, 1 tablespoon fresh lemon juice, 1/2 teaspoon Dijon mustard, 1 small head of radicchio (about 10 ounces), 1 cup (loosely packed) parsley leaves",
+    "name": "Seared Sea Scallops",
+    "description": "Seared on the outside with a light crust and tender on the inside. You may vary the amounts of all seasonings to suit your taste.",
+    "ingredients": "½ teaspoon dried oregano, 1 1/2 teaspoons kosher salt, 1 1/4 teaspoon freshly ground black pepper, 4 tablespoons extra-virgin olive oil, 4 teaspoons lemon juice, divided, 3 sprigs rosemary, 16 sea scallops, rinsed and drained, 1 cup (loosely packed) parsley leaves",
     "details": {
-      "one": "Preheat oven to 400°F. Season pork chops on both sides with 1 1/4 tsp. salt and 1 tsp. pepper.",
-      "two": "Heat 1 Tbsp. oil in a large skillet over high. Working in batches if needed, sear pork chops until browned, about 2 minutes per side. Transfer chops to a wire rack set inside a rimmed baking sheet; reserve pan drippings in skillet. Roast pork until an instant-read thermometer inserted into the center registers 135°F, about 15 minutes. Let pork rest 5 minutes.",
-      "three": "Meanwhile, heat skillet with drippings over medium-high. Add vinegar and cook, scraping up drippings with a wooden spoon. Stir in red pepper flakes, if using, 2 Tbsp. honey, and 1/4 tsp. salt. Add grapes, figs, and rosemary and stir to coat. Continue to cook, stirring occasionally, until sauce is thickened and fruit is softened, about 8 minutes. Remove from heat and stir in butter.",
-      "four": "Whisk lemon juice, mustard, and remaining 3 Tbsp. oil, 1 tsp. honey, 1/2 tsp. salt, and 1/4 tsp. pepper in a large bowl. Add radicchio and parsley and toss to coat. Divide radicchio salad and pork chops among plates. Top with agrodolce."
+      "one": "In a large bowl, mix together flour, salt, oregano, thyme and lemon pepper. Roll scallops in flour mixture until lightly coated on all sides.",
+      "two": "Heat olive oil in a skillet or frying pan over high heat. Add 4 scallops to the pan and sear on all sides (about 2 minutes for each side). After turning scallops, add 1 tablespoon parsley and 1 teaspoon lemon juice.",
+      "three": "Remove scallops from pan and place on a plate in the oven to keep warm until ready to serve.",
+      "four": "Repeat until remaining scallops are cooked, tossing each batch with parsley and lemon juice."
     },
-    "imageURL": "/images/pork-chops-with-fig-and-grape-agrodolce.jpg",
+    "imageURL": "https://www.culinaryhill.com/wp-content/uploads/2020/02/Pan-Seared-Scallops-with-Lemon-Butter-Culinary-Hill-LR-09SQ.jpg",
     "detailURL": "/category/3/1",
     "categoryURL": "/category/3"
   },
-  "Charred Chicken with Sweet Potatoes": {
+  "Lemon Thyme Chicken Tenders": {
     "categoryID": "3",
     "recipeID": "2",
     "categoryName": "Main Course",
-    "name": "Charred Chicken with Sweet Potatoes",
+    "name": "Lemon Thyme Chicken Tenders",
     "description": "How great is this? Delicious. Colorful. Nutritious. All presented beautifully on a single platter.",
-    "ingredients": "4 skin-on and bone-in chicken thighs, Kosher salt, 4 garlic cloves, 3 tablespoons fresh lemon juice, 5 tablespoons olive oil, 1 large or 2 medium sweet potatoes, 3 large sprigs rosemary, 1 blood orange, 1 15-ounce can chickpeas, 1/2 cup Castelvetrano olives, 3 ounces feta",
+    "ingredients": "4 skin-on and bone-in chicken thighs, Kosher salt, 4 garlic cloves, 3 tablespoons fresh lemon juice, 5 tablespoons olive oil, 6 sprigs fresh thyme, leaves stripped and chopped, 3 large sprigs rosemary, 1 blood orange, 1 15-ounce can chickpeas, 1/2 cup Castelvetrano olives, 3 ounces feta",
     "details": {
-      "one": "Preheat oven to 450°. Place chicken in a large bowl and season with salt. Add garlic, 2 Tbsp. lemon juice, and 2 Tbsp. oil and toss to combine. Let sit at room temperature at least 30 minutes or cover and chill up to 12 hours. Remove chicken from marinade, draining off any excess; discard marinade. Set chicken aside.",
-      "two": "Prick sweet potato all over with a fork and roast on a small foil-lined rimmed baking sheet until tender, about 1 hour. Let sit until cool enough to handle. Once potato comes out of the oven, start cooking the chicken. Heat 1 Tbsp. oil in a large skillet, preferably cast iron, over medium-high. Cook chicken, skin side down, until skin is very brown (it should get very dark; as long as you don’t smell it outright burning it will be all the better with some char), about 5 minutes. Transfer to oven and roast, keeping skin side down, until cooked through, 18–22 minutes. About 1 minute before removing chicken from oven, toss rosemary sprigs into skillet.",
-      "three": "Place chicken, skin side up, on a plate along with rosemary sprigs. Set skillet over medium-high. Cook orange slices just until golden and slightly softened, about 30 seconds per side. Transfer to plate with chicken. Toss chickpeas, olives, and feta with remaining 2 Tbsp. oil and remaining 1 Tbsp. lemon juice in a large bowl; season chickpea salad with salt.",
-      "four": "Tear open sweet potato and arrange big sections of flesh on a large platter. Place chicken, along with any accumulated juices, around sweet potato, then top with orange slices, chickpea salad, and rosemary leaves. Squeeze orange wedges over everything when at the table."
+      "one": "Combine the olive oil, garlic, chopped thyme, lemon zest, and lemon juice in a large mixing bowl.",
+      "two": "Season the chicken tenders with salt and pepper. Toss chicken with the olive oil mixture; allow to marinate for 5 minutes.",
+      "three": "Spray a non-stick skillet with cooking spray, and place over medium-high heat.",
+      "four": "Cook chicken tenders in the hot pan until lightly browned and cooked through, about 4 minutes per side."
     },
-    "imageURL": "/images/charred-chicken-with-sweet-potatoes.jpg",
+    "imageURL": "https://chefjulieyoon.com/wp-content/uploads/2011/05/HerbChickenTenders-201.jpg",
     "detailURL": "/category/3/2",
     "categoryURL": "/category/3"
   },
@@ -202,41 +201,41 @@
       "three": "Meanwhile, heat a large skillet with 2 tablespoons oil over medium-high heat. Remove pork from marinade (reserve marinade) and sear on 3 sides until lightly browned, about 3 minutes per side. Turn tenderloins onto their fourth side and add broth to pan. Transfer skillet to oven and roast pork, basting occasionally, until internal temperature reaches 140°F for medium rare or 145°F for medium, 10 to 13 minutes more (temperature will rise by about 10 degrees after cooking). Transfer pork to cutting board and let rest 5 minutes, and reserve skillet.",
       "four": "Add reserved marinade to the skillet and reduce over medium heat, stirring and scraping up the browned bits, until thickened to a pan sauce that coats the back of a spoon, 3 to 5 minutes. Remove from heat and whisk in butter. Taste and adjust seasoning. To serve, slice pork and drizzle with pan sauce. Spoon Brussels sprouts onto plate, sprinkle with mint, and serve additional pan sauce on side."
     },
-    "imageURL": "/images/chile-marinated-pork-with-vietnamese-brussels-sprouts.jpg",
+    "imageURL": "https://assets.epicurious.com/photos/5a2ac5a827dfe52f3100bcf8/2:1/w_1260%2Ch_630/CHILE-MARINATED-PORK-WITH-VIETNAMESE-BRUSSELS-SPROUTS-cook-90-07122017.jpg",
     "detailURL": "/category/3/3",
     "categoryURL": "/category/3"
   },
-  "Slow-Roasted Salmon in Parchment Paper": {
+  "Sweet Glazed Salmon": {
     "categoryID": "3",
     "recipeID": "4",
     "categoryName": "Main Course",
-    "name": "Slow-Roasted Salmon in Parchment Paper",
-    "description": "Here’s the one-sheet on cooking in parchment packets: The method creates moist, even heat, which is ideal for fish. It’s hands-off, and the parcels can be assembled ahead of time.",
-    "ingredients": "2 tablespoons extra-virgin olive oil, 1 onion, 1 bay leaf, Kosher salt, 1 cup Castelvetrano olives, 1/4 cup drained capers, 1/4 cup raisins, 6 tablespoons dark rum, 2 tablespoons fresh lime juice, 4 (6-ounce) salmon fillets, Freshly ground black pepper, 4 tablespoons coarsely chopped cilantro, Lime wedges (for serving)",
+    "name": "Sweet Glazed Salmon",
+    "description": "This honey glazed salmon is seared salmon fillets topped in a honey, soy sauce and garlic glaze.",
+    "ingredients": "2 tablespoons extra-virgin olive oil, 1 onion, 1 teaspoon honey, Kosher salt, 1/4 cup drained capers, 1/4 cup raisins, 1/3 teaspoon packed brown sugar, 2 tablespoons fresh lime juice, 4 (6-ounce) salmon fillets, Freshly ground black pepper, 4 tablespoons coarsely chopped cilantro, Lime wedges (for serving)",
     "details": {
-      "one": "Preheat oven to 275°F. Heat 2 Tbsp. oil in a large skillet over medium-low. Add onion, bay leaf, and a pinch of salt and cook, stirring often and reducing heat if onion is browning too fast, until onion is golden brown, 25–30 minutes.",
-      "two": "Add olives, capers, raisins, and 2 Tbsp. water to skillet and cook, stirring occasionally, until olives are softened, about 4 minutes. Add rum and cook until liquid is evaporated, about 5 minutes. Remove skillet from heat and stir in lime juice and 1 Tbsp. water. If needed, add a splash or two more of water so mixture is saucy; season with salt.",
-      "three": "Season salmon with salt and pepper. Cut four large sheets of parchment paper. Working with 1 sheet, spoon one-quarter of sauce onto the center of paper; scatter 1 Tbsp. cilantro over. Create a well in the sauce the size of a salmon fillet and place fish in well; drizzle with oil. Gather edges of parchment up and over salmon and tie tightly closed with kitchen twine. Set on a rimmed baking sheet. Repeat with remaining parchment paper, sauce, salmon, and 3 Tbsp. cilantro.",
-      "four": "Bake packets until salmon is cooked through, 20–22 minutes for medium (go 2 minutes longer for well-done). Remove from oven and let salmon steam in packets 2 minutes. Unwrap and top with more cilantro. Serve with lime wedges for squeezing over."
+      "one": "Heat 1/4 teaspoon olive oil in a small skillet over medium-high heat. Saute garlic in hot oil until just beginning to brown.",
+      "two": "Mix sauteed garlic, soy sauce, lemon juice, honey, 1/2 teaspoon olive oil, brown sugar, sea salt, black pepper, and red pepper flakes together in a bowl; pour into a large resealable plastic bag. Add salmon fillets, turning to coat with the marinade, squeeze bag to remove excess air, and seal the bag. Marinate in the refrigerator for 1 hour.",
+      "three": "Remove salmon from the marinade and shake to remove excess liquid. Reserve 3 tablespoons marinade and discard remainder.",
+      "four": "Heat 1 tablespoon olive oil in a large skillet over medium heat. Arrange salmon fillets in the hot skillet, pour reserved marinade over the salmon, and place a lid on the skillet; cook until salmon is browned on each side and flakes easily with a fork, occasionally spooning liquid from the pan over the fillets, 2 to 3 minutes per side. Garnish salmon with additional sea salt and black pepper."
     },
-    "imageURL": "/images/slow-roasted-salmon-in-parchment-paper.jpg",
+    "imageURL": "https://recipetineats.com/wp-content/uploads/2017/10/Lemon-Honey-Glazed-Salmon-4.jpg",
     "detailURL": "/category/3/4",
     "categoryURL": "/category/3"
   },
-  "Slow-Grilled Leg of Lamb with Mint Yogurt": {
+  "Roasted Rack of Lamb": {
     "categoryID": "3",
     "recipeID": "5",
     "categoryName": "Main Course",
-    "name": "Slow-Grilled Leg of Lamb with Mint Yogurt",
-    "description": "The lamb is flavorful and the sauces are delicious. Grilling really gives the lamb a little extra flare.",
-    "ingredients": "1 yellow onion (6 oz.), 7 cloves garlic, 2 tablespoons roughly chopped rosemary, 1/2 cup lemon juice, 2 1/2 teaspoons salt, 2/3 cup olive oil, 1 leg of lamb (4 to 5 lbs.), 1 red onion (6 oz.), 2 bunches radishes, Yogurt-Mint Sauce",
+    "name": "Roasted Rack of Lamb",
+    "description": "The lamb is flavorful and the sauces are delicious.",
+    "ingredients": "1 yellow onion (6 oz.), 7 cloves garlic, 2 tablespoons roughly chopped rosemary, 1 tablespoon Dijon mustard, 2 1/2 teaspoons salt, 2/3 cup olive oil, 1 (7 bone) rack of lamb, trimmed and frenched, 1 red onion (6 oz.)",
     "details": {
-      "one": "In a blender, whirl yellow onion, garlic, rosemary, lemon juice, and salt. With blender running, slowly pour in olive oil.",
-      "two": "Rinse lamb and pat dry. With a small knife, make small slashes (1 in. long, 1 in. deep) all over the lamb, and put it in a nonreactive dish. Coat lamb with onion marinade, making sure the mixture gets into the slits. Cover and chill 2 hours or up to overnight, turning occasionally.",
-      "three": "Remove lamb from refrigerator about 1 hour before you plan to cook it. Spread lamb flat on an oiled barbecue grill over a solid bed of medium-hot coals or medium heat on a gas grill (you can hold your hand 1 to 2 in. above grill level only 4 to 5 seconds). Close lid. Cook lamb, turning once and brushing with marinade, until a thermometer inserted in center of thickest part registers 140°, about 40 minutes.",
-      "four": "Transfer meat to a platter and cover. Let rest 15 to 20 minutes. Thinly slice meat, garnish with sliced red onion and radishes, and serve with yogurt-mint sauce."
+      "one": "Preheat oven to 450 degrees F (230 degrees C). Move oven rack to the center position.",
+      "two": "In a large bowl, combine bread crumbs, garlic, rosemary, 1 teaspoon salt and 1/4 teaspoon pepper. Toss in 2 tablespoons olive oil to moisten mixture. Set aside.",
+      "three": "Season the rack all over with salt and pepper. Heat 2 tablespoons olive oil in a large heavy oven proof skillet over high heat. Sear rack of lamb for 1 to 2 minutes on all sides. Set aside for a few minutes. Brush rack of lamb with the mustard. Roll in the bread crumb mixture until evenly coated. Cover the ends of the bones with foil to prevent charring.",
+      "four": "Arrange the rack bone side down in the skillet. Roast the lamb in preheated oven for 12 to 18 minutes, depending on the degree of doneness you want. With a meat thermometer, take a reading in the center of the meat after 10 to 12 minutes and remove the meat, or let it cook longer, to your taste. Let it rest for 5 to 7 minutes, loosely covered, before carving between the ribs."
     },
-    "imageURL": "/images/slow-grilled-leg-of-lamb-with-mint-yogurt.jpg",
+    "imageURL": "https://www.sweetandsavorybyshinee.com/wp-content/uploads/2014/01/Roasted-Rack-of-Lamb-1.jpg",
     "detailURL": "/category/3/5",
     "categoryURL": "/category/3"
   },
@@ -246,29 +245,29 @@
     "categoryName": "Snack",
     "name": "Chicken Nuggets",
     "description": "A real kid-pleaser! Adults will enjoy this recipe for a tasty snack, too! Serve warm with your favorite dipping sauces if desired.",
-    "ingredients": "1/2 cup all-purpose flour, 1 teaspoon granulated garlic, Kosher salt and ground black pepper, 2 boneless skinless chicken breasts (cut into 1 1/2-inch pieces), 1 cup prepared breadcrumbs, 1 large egg, 1 cup vegetable oil",
+    "ingredients": "1/2 cup all-purpose flour, 1 teaspoon granulated garlic, Kosher salt and ground black pepper, 32 oz boneless, skinless chicken breasts, 1 cup prepared breadcrumbs, 1 large egg, 1 cup vegetable oil",
     "details": {
       "one": "Place the flour in a resealable plastic bag and season with the garlic, 1 teaspoon salt and 1/4 teaspoon pepper. Place the chicken pieces in the bag with the flour and toss to coat (work in batches). Transfer the breadcrumbs to a rimmed plate, season with salt and pepper and set aside.",
       "two": "Whisk the egg and 1 tablespoon water in a medium bowl. Remove a piece of chicken from the flour, dip in the egg mixture, then the breadcrumbs, gently pressing the crumbs into the chicken, and set on a clean plate. Repeat with the remaining pieces of chicken.",
       "three": "Heat the vegetable oil in a large frying pan over medium-high heat. Add the chicken pieces to the pan (work in batches if needed) and brown on each side, about 8 minutes total. Use a spatula to transfer the chicken nuggets to a paper-towel-lined plate. Salt while hot and serve."
     },
-    "imageURL": "/images/chicken-nuggets.jpg",
+    "imageURL": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/9D900DB3-435D-4AE4-9375-B152D2813750/Derivates/199C60FC-C264-43A3-B822-88AA5E50E954.jpg",
     "detailURL": "/category/4/1",
     "categoryURL": "/category/4"
   },
-  "Bacon Wrapped Scallops": {
+  "Old Fashioned Onion Rings": {
     "categoryID": "4",
     "recipeID": "2",
     "categoryName": "Snack",
-    "name": "Bacon Wrapped Scallops",
-    "description": "Bacon Wrapped Scallops are elegant enough for a dinner party or a romantic dinner for two and easy enough to prepare on a busy weeknight.",
-    "ingredients": "1 1/2 pound large scallops, 1/2 pound thin-sliced bacon, Extra-virgin olive oil, Sea salt and freshly ground black pepper, 1 cup good quality mayonnaise, 1/4 cup hot chili paste (recommended: Sriracha Hot Chili Paste), 1 lime, 2 tablespoons chopped cilantro, 2 heads Bibb lettuce, 3 avocados",
+    "name": "Old Fashioned Onion Rings",
+    "description": "This is an actual recipe from a former employee of a popular drive-in restaurant. Crispy coated onion rings like the pro's make!",
+    "ingredients": "Extra-virgin olive oil, Sea salt and freshly ground black pepper, 1 large onion, cut into 1/4-inch slices, 1 cups all-purpose flour, 1 teaspoon baking powder, 1 egg, 1 cup milk, or as needed, ¾ cup dry bread crumbs",
     "details": {
-      "one": "Heat the broiler. Wrap each scallop in a piece of bacon and secure it with a toothpick. Place the bacon wrapped scallops onto a baking sheet, drizzle them with olive oil, and season them with salt and pepper. Cook them under the broiler for about 10 to 15 minutes until the bacon is cooked through, turning once.",
-      "two": "Make the spicy mayo by combining the mayonnaise, chili paste, lime juice, and chopped cilantro. Stir well and refrigerate until ready to use. ",
-      "three": "To serve, carefully peel away the lettuce leaves and line a large platter with the lettuce cups. Top each with a bacon wrapped scallop, 2 slices of avocado, and a spoonful of spicy mayonnaise. Garnish with cilantro leaves."
+      "one": "Heat the oil in a deep-fryer to 365 degrees F (185 degrees C). Separate the onion slices into rings, and set aside. In a small bowl, stir together the flour, baking powder and salt.",
+      "two": "Dip the onion slices into the flour mixture until they are all coated; set aside. Whisk the egg and milk into the flour mixture using a fork. Dip the floured rings into the batter to coat, then place on a wire rack to drain until the batter stops dripping. The wire rack may be placed over a sheet of aluminum foil for easier clean up. Spread the bread crumbs out on a plate or shallow dish. Place rings one at a time into the crumbs, and scoop the crumbs up over the ring to coat. Give it a hard tap as you remove it from the crumbs. The coating should cling very well. Repeat with remaining rings.",
+      "three": "Deep fry the rings a few at a time for 2 to 3 minutes, or until golden brown. Remove to paper towels to drain. Season with seasoning salt, and serve."
     },
-    "imageURL": "/images/bacon-wrapped-scallops.jpg",
+    "imageURL": "https://www.mylatinatable.com/wp-content/uploads/2016/01/foto-heroe-1024x693-1-1024x693.jpg",
     "detailURL": "/category/4/2",
     "categoryURL": "/category/4"
   },
@@ -284,23 +283,23 @@
       "two": "Heat oil in a deep-fryer or large saucepan to 275 degrees F (135 degrees C). Gently add the potatoes in the hot oil for about 5 minutes, stirring and flipping the potatoes occasionally. Remove potatoes from oil with a slotted spoon to drain on paper towel and to cool completely.",
       "three": "Heat oil in a deep-fryer or large saucepan to 350 degrees F (175 degrees C). Fry the potatoes again until golden brown, 5 to 6 minutes. Blot with a paper towel. Sprinkle with salt to serve."
     },
-    "imageURL": "/images/french-fries.jpg",
+    "imageURL": "https://thumbor.thedailymeal.com/Kqs10n_zoYMq7a3i6r7frrm6aXk=/870x565/filters:focal(585x390:586x391)/https://www.thedailymeal.com/sites/default/files/recipe/2017/shutterstock_510881971.jpg",
     "detailURL": "/category/4/3",
     "categoryURL": "/category/4"
   },
-  "Buffalo Chicken Wings": {
+  "Boneless Buffalo Wings": {
     "categoryID": "4",
     "recipeID": "4",
     "categoryName": "Snack",
-    "name": "Buffalo Chicken Wings",
-    "description": "Ultra crispy chicken wings tossed in a classic spicy sauce and served with ranch dressing. They’re perfect for parties, game day, or just when you have a hankering for a hearty snack.",
-    "ingredients": "2 lb. chicken wings, 2 tbsp Vegetable oil, 1 tsp garlic powder, Kosher salt,Freshly ground black pepper, 1/4 c hot sauce (such as Frank's), 2 tbsp honey, 4 tbsp butter, Ranch dressing, Carrot sticks, Celery sticks, for serving",
+    "name": "Boneless Buffalo Wings",
+    "description": "What a great way to have chicken. Had these boneless wings a while back at a pub and fell in love with the taste. A nice change from your regular chicken wings. Serve with blue cheese dressing for dipping",
+    "ingredients": "2 lb. chicken wings, 2 tbsp olive oil, 1 tsp garlic powder, Kosher salt,Freshly ground black pepper, 1/4 c hot sauce, 2 tbsp honey, ½ teaspoon paprika, 4 tbsp butter, Ranch dressing, Carrot sticks, Celery sticks, for serving",
     "details": {
-      "one": "Preheat oven to 400° and place a wire rack over a baking sheet. In a large bowl, toss chicken wings with oil and season with garlic powder, salt, and pepper. Transfer to prepared baking sheet.",
-      "two": "Bake until chicken is golden and skin is crispy, 50 to 60 minutes, flipping the wings halfway through.",
-      "three": "In a small saucepan, whisk together hot sauce and honey. Bring to simmer then stir in butter. Cook until butter is melted and slightly reduced, about 2 minutes. Heat broiler on low. Transfer baked wings to a bowl and toss with buffalo sauce until completely coated. Return wings to rack and broil—watching carefully!—until sauce caramelizes, 3 minutes. Serve with ranch dressing and vegetables."
+      "one": "Heat oil in a deep-fryer or large saucepan to 375 degrees F (190 degrees C).",
+      "two": "Combine flour, salt, black pepper, cayenne pepper, garlic powder, and paprika in a large bowl. Whisk together the egg and milk in a small bowl. Dip each piece of chicken in the egg mixture, and then roll in the flour blend. Repeat so that each piece of chicken is double coated. Refrigerate breaded chicken for 20 minutes.",
+      "three": "Fry chicken in the hot oil, in batches. Cook until the exterior is nicely browned, and the juices run clear, 5 to 6 minutes a batch. Combine hot sauce and butter in a small bowl. Microwave sauce on High until melted, 20 to 30 seconds. Pour sauce over the cooked chicken; mix to coat."
     },
-    "imageURL": "/images/buffalo-chicken-wings.jpg",
+    "imageURL": "https://dinnerthendessert.com/wp-content/uploads/2018/08/Boneless-Buffalo-Wings-3.jpg",
     "detailURL": "/category/4/4",
     "categoryURL": "/category/4"
   },
@@ -309,14 +308,14 @@
     "recipeID": "5",
     "categoryName": "Snack",
     "name": "Coconut Shrimp",
-    "description": "These Easy Baked Coconut Shrimp are crisp, golden and delicious served a sweet and spicy apricot dipping sauce.",
+    "description": "These crispy shrimp are rolled in a coconut beer batter before frying. For dipping sauce, you can use orange marmalade, mustard and horseradish mixed to taste.",
     "ingredients": "1 egg, 1/2 cup all-purpose flour, 2/3 cup beer, 1 1/2 teaspoons baking powder, 1/4 cup all-purpose flour, 2 cups flaked coconut, 24 shrimp, 3 cups oil for frying",
     "details": {
       "one": "In medium bowl, combine egg, 1/2 cup flour, beer and baking powder. Place 1/4 cup flour and coconut in two separate bowls.",
       "two": "Hold shrimp by tail, and dredge in flour, shaking off excess flour. Dip in egg/beer batter; allow excess to drip off. Roll shrimp in coconut, and place on a baking sheet lined with wax paper. Refrigerate for 30 minutes. Meanwhile, heat oil to 350 degrees F (175 degrees C) in a deep-fryer.",
       "three": "Fry shrimp in batches: cook, turning once, for 2 to 3 minutes, or until golden brown. Using tongs, remove shrimp to paper towels to drain. Serve warm with your favorite dipping sauce."
     },
-    "imageURL": "/images/coconut-shrimp.jpg",
+    "imageURL": "https://weelicious.com/imager/weelicious_com/uploads/Coconut-Baked-Shrimp-4_1b74faffbe944b0675f0e20473d3ad34.jpg",
     "detailURL": "/category/4/5",
     "categoryURL": "/category/4"
   },
@@ -333,7 +332,7 @@
       "three": "Pour batter into prepared pans. Bake in preheated oven until a tester inserted into the cake comes out clean, about 30 minutes. Cool cakes completely on wire rack.",
       "four": "To Make Icing: Cook 5 tablespoons flour and milk over low heat till thick, stirring constantly. Let cool completely! While mixture is cooling, beat 1 cup sugar, butter, and 1 teaspoon vanilla until light and fluffy. Add cooled flour mixture and beat until frosting is a good spreading consistency. Frost cake layers when completely cool."
     },
-    "imageURL": "/images/red-velvet-cake.jpg",
+    "imageURL": "https://www.telegraph.co.uk/content/dam/recipes/2020/03/06/TELEMMGLPICT000225955887_trans_NvBQzQNjv4Bq0pnPhQHCKLs6Zs8HFVbCRfAW1VMtAeeMa0kMGgcJ8Qw.jpeg?imwidth=450",
     "detailURL": "/category/5/1",
     "categoryURL": "/category/5"
   },
@@ -350,7 +349,7 @@
       "three": "Bake in preheated oven for 25 to 30 minutes. Do not overcook.",
       "four": "To Make Frosting: Combine 3 tablespoons softened butter, 3 tablespoons cocoa, honey, 1 teaspoon vanilla extract, and 1 cup confectioners' sugar. Stir until smooth. Frost brownies while they are still warm."
     },
-    "imageURL": "/images/chocolate-brownies.jpg",
+    "imageURL": "https://img.taste.com.au/kdMbjArS/taste/2010/01/chocolate-brownies-118925-2.jpg",
     "detailURL": "/category/5/2",
     "categoryURL": "/category/5"
   },
@@ -367,7 +366,7 @@
       "three": "In a small bowl, combine coffee and rum. Split ladyfingers in half lengthwise and drizzle with coffee mixture.",
       "four": "Arrange half of soaked ladyfingers in bottom of a 7x11 inch dish. Spread half of mascarpone mixture over ladyfingers, then half of whipped cream over that. Repeat layers and sprinkle with cocoa. Cover and refrigerate 4 to 6 hours, until set."
     },
-    "imageURL": "/images/tiramisu.jpg",
+    "imageURL": "https://static01.nyt.com/images/2017/04/05/dining/05COOKING-TIRAMISU1/05COOKING-TIRAMISU1-articleLarge.jpg",
     "detailURL": "/category/5/3",
     "categoryURL": "/category/5"
   },
@@ -383,24 +382,23 @@
       "two": "In a 2- to 3-quart pan over medium-high heat, tilt and swirl sugar until melted and deep amber, about 4 minutes. Stir in remaining 1 1/2 cups milk; mixture will bubble and sugar will harden. Stir until sugar melts again, about 2 minutes.",
       "three": "Whisk about 1/2 cup of the caramelized sugar mixture into cornstarch mixture, then return all to pan. Stir over medium-high heat until pudding thickens and begins to bubble, 3 to 5 minutes. Remove from heat and stir in vanilla. Pour into bowls and serve warm. Or let cool, chill airtight up to 2 days, and serve cold."
     },
-    "imageURL": "/images/caramel-pudding.jpg",
+    "imageURL": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Caramel-Custard_EXPS_DIYD20_3136_E07_29_9b.jpg",
     "detailURL": "/category/5/4",
     "categoryURL": "/category/5"
   },
-  "Angel Food Cake": {
+  "Chocolate Covered Strawberries": {
     "categoryID": "5",
     "recipeID": "5",
     "categoryName": "Dessert",
-    "name": "Angel Food Cake",
-    "description": "Homemade angel food cake is worth the work. It is moist, unlike the sweet styrofoam available in the grocery bakery.",
-    "ingredients": "1-1/4 cups egg whites (about 9), 1-1/2 cups sugar, 1 cup cake flour, 1-1/4 teaspoons cream of tartar, 1 teaspoon vanilla extract, 1/4 teaspoon almond extract, 1/4 teaspoon salt",
+    "name": "Chocolate Covered Strawberries",
+    "description": "This is the simplest version of chocolate covered strawberries I know. They are perfect for weddings when decorated with frosting bow ties, bells, butterflies, roses, etc.",
+    "ingredients": "16 ounces milk chocolate chips, 2 tablespoons shortening, 1 pound fresh strawberries with leaves",
     "details": {
-      "one": "Place egg whites in a large bowl; let stand at room temperature 30 minutes. Sift 1/2 cup sugar and flour together twice; set aside.",
-      "two": "Place oven rack in the lowest position. Preheat oven to 350°. Add cream of tartar, extracts and salt to egg whites; beat on medium speed until soft peaks form. Gradually add remaining sugar, about 2 tablespoons at a time, beating on high until stiff peaks form. Gradually fold in flour mixture, about 1/2 cup at a time.",
-      "three": "Gently spoon into an ungreased 10-in. tube pan. Cut through batter with a knife to remove air pockets. Bake 35-40 minutes or until lightly browned and entire top appears dry. Immediately invert pan; cool completely, about 1 hour.",
-      "four": "Run a knife around side and center tube of pan. Remove cake to a serving plate."
+      "one": "In a double boiler, melt the chocolate and shortening, stirring occasionally until smooth. Holding them by the toothpicks, dip the strawberries into the chocolate mixture.",
+      "two": "Insert toothpicks into the tops of the strawberries.",
+      "three": "Turn the strawberries upside down and insert the toothpick into styrofoam for the chocolate to cool."
     },
-    "imageURL": "/images/angel-food-cake.jpg",
+    "imageURL": "https://www.cookingclassy.com/wp-content/uploads/2020/01/chocolate-covered-strawberries-13.jpg",
     "detailURL": "/category/5/5",
     "categoryURL": "/category/5"
   }
