@@ -27,7 +27,7 @@ const Nav = () => {
           <Link className={styles.navTab} to="/contact">
             Contact Us
           </Link>
-          <Link className={styles.subscribe} to="/subscribe">
+          <Link className={styles.login} to="/login">
             Login
           </Link>
         </nav>

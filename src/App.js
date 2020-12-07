@@ -10,6 +10,8 @@ import Error from "./Error/Error.jsx";
 import AboutUs from "./About/AboutUs.jsx";
 import AllCategory from "./AllCategory/AllCategory.jsx";
 import Category from "./Category/Category.jsx";
+import Register from "./Register/Register.jsx";
+import Login from "./Login/Login.jsx";
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -30,7 +32,10 @@ function App() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/login" exact component={Login} />
+        <Route path="/register" exact component={Register} />
         <Route path="/category" exact component={AllCategory} />
+        
         {/* passing parameters via a route path */}
         <Route
           path="/bar/:categoryId/:productId"

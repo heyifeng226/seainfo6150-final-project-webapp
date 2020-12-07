@@ -1,35 +1,27 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
 
-const Form = () => {
-  const [submittedForm, setSubmittedForm] = useState();
-  function onSubmit(e) {
+export default class Form extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      submittedForm: null
+    };
+  }
+
+  onSubmit = async e => {
     e.preventDefault();
     const data = new FormData(e.target);
-    setSubmittedForm(data);
+    this.setState({ submittedForm: data });
   };
 
-  return (
-    <div>
-      {
-        submittedForm ? (
-          <div>Your form entry was {submittedForm.get("myText")} and {submittedForm.get("myDropdown")}</div>
-        ) : (
-          <form onSubmit={onSubmit}>
-            <label htmlFor="myTextId">Input</label>
-            <input type="text" name="myText" id="myTextId"/>
-
-            <label htmlFor="myDropdownId">Input</label>
-            <select name="myDropdown" id="myDropdownId">
-              <option value="foo">Foo</option>
-              <option value="bar">Bar</option>
-              <option value="baz">Baz</option>
-            </select>
-            <input type="submit" value="Send it" />
-          </form>
-        )
-      }
-    </div>
-  )
+  render() {
+    return this.state.submittedForm ? (
+      <div>Your form entry was {this.state.submittedForm.get("myText")}</div>
+    ) : (
+      <form onSubmit={this.onSubmit}>
+        <input type="text" name="myText" />
+        <input type="submit" value="Send it" />
+      </form>
+    );
+  }
 }
-
-export default Form

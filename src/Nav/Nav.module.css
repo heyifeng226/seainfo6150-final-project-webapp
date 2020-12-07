@@ -21,7 +21,7 @@ nav {
     color: #000;
   }
   
-  .subscribe {
+  .login {
     text-decoration: none;
     margin-left: auto;
     border: 1px solid black;
@@ -42,7 +42,7 @@ nav {
       margin-left: 20px;
       font-size: 15px;
     }
-    .subscribe {
+    .login {
       padding: 1px 5px;
       font-size: 12px;
     }
@@ -59,7 +59,7 @@ nav {
       margin-left: 20px;
       font-size: 15px;
     }
-    .subscribe {
+    .login {
       padding: 2px 10px;
       font-size: 15px;
     }
@@ -76,7 +76,7 @@ nav {
       margin-left: 50px;
       font-size: 18px;
     }
-    .subscribe {
+    .login {
       padding: 5px 20px;
       font-size: 18px;
     }
@@ -93,7 +93,7 @@ nav {
       margin-left: 80px;
       font-size: 20px;
     }
-    .subscribe {
+    .login {
       padding: 5px 25px;
       font-size: 20px;
     }
