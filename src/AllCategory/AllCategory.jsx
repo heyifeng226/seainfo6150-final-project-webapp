@@ -10,6 +10,8 @@ const AllCategory = () => {
         <br />
         Pick the categories you like and start exploring!
       </p>
+
+      
       <Link className={styles.allCategoryCard} to="/category/1">
         <img
           className={styles.allCategoryImg}

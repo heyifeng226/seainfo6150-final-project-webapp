@@ -1,18 +1,17 @@
 import React from "react";
+import {useEffect, useState} from "react";
 import { Switch, Route, Link } from "react-router-dom";
-import recipes from "./data/recipes.json";
 import Home from "./Home/Home.jsx";
 import Footer from "./Footer/Footer.jsx";
 import Nav from "./Nav/Nav.jsx";
-//import Bar from "./Bar/Bar.jsx";
 import Error from "./Error/Error.jsx";
-//import styles from "./nav.module.css";
 import AboutUs from "./About/AboutUs.jsx";
 import AllCategory from "./AllCategory/AllCategory.jsx";
 import Category from "./Category/Category.jsx";
 import Detail from "./Detail/Detail.jsx";
 import Register from "./Register/Register.jsx";
 import Login from "./Login/Login.jsx";
+import { isEmpty } from "lodash";
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -32,8 +31,23 @@ const allCategorys = {
 };
 
 function App() {
-  return (
-    <>
+  const [fetchedData, setFetchedData] = useState();
+
+  useEffect(() => {
+    const fetchData = async () => {
+      // performs a GET request
+      const response = await fetch("http://demo9484100.mockable.io/recipes");
+      const responseJson = await response.json();
+      setFetchedData(Object.values(responseJson));
+    };
+
+    if (isEmpty(fetchedData)) {
+      fetchData();
+    }
+  }, [fetchedData]);
+
+  return isEmpty(fetchedData) ? null : (
+    <div className="App">
       <header>
           <Nav/>
       </header>
@@ -44,9 +58,7 @@ function App() {
         <Route path="/login" exact component={Login} />
         <Route path="/register" exact component={Register} />
         <Route path="/category" exact component={AllCategory} />
-        
         {/* passing parameters via a route path */}
-        
         <Route
           path="/category/:categoryID"
           exact
@@ -54,7 +66,7 @@ function App() {
             <Category
               categoryID={match.params.categoryID}
               categorys={Object.values(allCategorys)}
-              content={Object.values(recipes)}
+              content={Object.values(fetchedData)}
             />
           )}
         />
@@ -67,20 +79,17 @@ function App() {
             <Detail
               categoryID={match.params.categoryID}
               recipeID={match.params.recipeID}
-              content={Object.values(recipes)}
+              content={Object.values(fetchedData)}
             />
           )}
         />
-      
-        
         <Route path="/about" exact component={AboutUs} />
-        
         <Route component={Error} />
       </Switch>
       <footer>
         <Footer/>
       </footer>
-    </>
+    </div>
   );
 }
 

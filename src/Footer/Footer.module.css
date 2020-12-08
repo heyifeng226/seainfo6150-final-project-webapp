@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+.logo{
+  border-radius: 50%;
+}
+
 .text {
     text-decoration: none;
     font-family: Futura, Arial, sans-serif;
