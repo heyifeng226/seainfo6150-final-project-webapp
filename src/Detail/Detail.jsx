@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import styles from "./Detail.module.css";
 
 
-const getRecipeDetail = (recipe, categoryID, recipeID) => {
-  if (recipe.categoryID === categoryID && recipe.recipeID === recipeID) {
+const getRecipeDetail = (recipe, recipeID) => {
+    if (recipe.recipeID === recipeID) {
     return (
       <div className={styles.recipeContainer}>
         <img
@@ -35,7 +35,7 @@ const Detail = (props) => {
   return (
     <div>
       {props.content.map((recipe) =>
-        getRecipeDetail(recipe, props.categoryID, props.recipeID)
+        getRecipeDetail(recipe, props.recipeID)
       )}
     </div>
 

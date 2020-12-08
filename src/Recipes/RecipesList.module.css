@@ -1,0 +1,36 @@
+.container {
+    background:#F9F5F3;
+    padding: 3rem 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+  }
+
+.grid_style {
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-gap:20px;
+}
+
+.ListContainer {
+    
+    padding: 3rem 0;
+    padding-left: 0;
+    display: grid;
+    /*grid-template-rows: auto auto auto*/
+    grid-template-columns: auto auto auto;
+  }
+  
+RecipeList_ListContainer__3B9RS {
+    
+    padding: 3rem 0;
+    padding-left: 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    border: 1px dashed #666;
+    box-shadow: 0px 0px 10px 5px rgba(204, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+

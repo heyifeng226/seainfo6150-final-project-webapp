@@ -11,6 +11,7 @@ import Category from "./Category/Category.jsx";
 import Detail from "./Detail/Detail.jsx";
 import Register from "./Register/Register.jsx";
 import Login from "./Login/Login.jsx";
+import RecipesList from "./Recipes/RecipesList.jsx";
 import { isEmpty } from "lodash";
 
 // here is some external content. look at the /baz route below
@@ -52,11 +53,25 @@ function App() {
           <Nav/>
       </header>
       {/* A <Switch> looks through its children <Route>s and
+      <Route
+          path="/category/:categoryID/:recipeID"
+          exact
+          render={({ match }) => (
+            // getting the parameters from the url and passing
+            // down to the component as props
+            <Detail
+              categoryID={match.params.categoryID}
+              recipeID={match.params.recipeID}
+              content={Object.values(fetchedData)}
+            />
+          )}
+        />
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/login" exact component={Login} />
         <Route path="/register" exact component={Register} />
+        <Route exact path="/collection"><RecipesList recipes={fetchedData} /></Route>
         <Route path="/category" exact component={AllCategory} />
         {/* passing parameters via a route path */}
         <Route
@@ -71,13 +86,12 @@ function App() {
           )}
         />
         <Route
-          path="/category/:categoryID/:recipeID"
+          path="/recipe/:recipeID"
           exact
           render={({ match }) => (
             // getting the parameters from the url and passing
             // down to the component as props
             <Detail
-              categoryID={match.params.categoryID}
               recipeID={match.params.recipeID}
               content={Object.values(fetchedData)}
             />
