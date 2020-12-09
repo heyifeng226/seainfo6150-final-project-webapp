@@ -26,6 +26,6 @@ function Category(props) {
   
 
   return isEmpty(fetchedData) ? null : (
-    <CategoryList categoryData={fetchedData} setRecipeType={props.setRecipeType}/>
+    <CategoryList categoryData={fetchedData} />
   );
 }

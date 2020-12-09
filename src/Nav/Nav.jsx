@@ -18,8 +18,8 @@ const Nav = () => {
           <Link className={styles.navTab} to="/category">
             All Category
           </Link>
-          <Link className={styles.navTab} to="/collection">
-            My Recipes
+          <Link className={styles.navTab} to="/recipes">
+            All Recipes
           </Link>
           <Link className={styles.navTab} to="/about">
             About Us
@@ -27,8 +27,8 @@ const Nav = () => {
           <Link className={styles.navTab} to="/contact">
             Contact Us
           </Link>
-          <Link className={styles.login} to="/login">
-            Login
+          <Link className={styles.login} to="/subscribe">
+            Subscribe
           </Link>
         </nav>
     )

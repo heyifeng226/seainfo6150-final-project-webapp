@@ -6,11 +6,13 @@ import Footer from "./Footer/Footer.jsx";
 import Nav from "./Nav/Nav.jsx";
 import Error from "./Error/Error.jsx";
 import AboutUs from "./About/AboutUs.jsx";
+import Contact from "./Contact/Contact.jsx";
 import AllCategory from "./AllCategory/AllCategory.jsx";
 import Category from "./Category/Category.jsx";
 import Detail from "./Detail/Detail.jsx";
 import Register from "./Register/Register.jsx";
 import Login from "./Login/Login.jsx";
+import Subscribe from "./Subscribe/Subscribe.jsx";
 import RecipesList from "./Recipes/RecipesList.jsx";
 import { isEmpty } from "lodash";
 
@@ -53,6 +55,7 @@ function App() {
           <Nav/>
       </header>
       {/* A <Switch> looks through its children <Route>s and
+      <Route path="/login" exact component={Login} />
       <Route
           path="/category/:categoryID/:recipeID"
           exact
@@ -69,9 +72,10 @@ function App() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/login" exact component={Login} />
+        
         <Route path="/register" exact component={Register} />
-        <Route exact path="/collection"><RecipesList recipes={fetchedData} /></Route>
+        <Route path="/subscribe" exact component={Subscribe} />
+        <Route exact path="/recipes"><RecipesList recipes={fetchedData} /></Route>
         <Route path="/category" exact component={AllCategory} />
         {/* passing parameters via a route path */}
         <Route
@@ -98,6 +102,7 @@ function App() {
           )}
         />
         <Route path="/about" exact component={AboutUs} />
+        <Route path="/contact" exact component={Contact} />
         <Route component={Error} />
       </Switch>
       <footer>

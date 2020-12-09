@@ -8,7 +8,6 @@ const RecipesList = (props) => {
 
   if (props.recipes.length) {
     displayContent = (
-      
         <div className={styles.grid_style}>
         {props.recipes.map((recipe) => (
           <RecipesListItem recipe={recipe} key={recipe.ID} />
