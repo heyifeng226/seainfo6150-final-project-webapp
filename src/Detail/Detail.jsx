@@ -16,11 +16,11 @@ const getRecipeDetail = (recipe, recipeID) => {
         <h2 className={styles.recipeTitle}>Ingredients</h2>
         <p className={styles.recipeIngredients}>{recipe.ingredients}</p>
         <h2 className={styles.recipeTitle}>Cooking Directions</h2>
-        <p className={styles.recipeDetail}>Step1: {recipe.details.one}</p>
-        <p className={styles.recipeDetail}>Step2: {recipe.details.two}</p>
-        <p className={styles.recipeDetail}>Step3: {recipe.details.three}</p>
-        <p className={styles.recipeDetail}>Step4: {recipe.details.four}</p>
-        
+        <p className={styles.recipeDetail}>{recipe.details.one}</p>
+        <p className={styles.recipeDetail}>{recipe.details.two}</p>
+        <p className={styles.recipeDetail}>{recipe.details.three}</p>
+        <p className={styles.recipeDetail}>{recipe.details.four}</p>
+    
         <p>
           <Link className={styles.recipeBackLink} to={recipe.categoryURL}>
             &lt; Back to {recipe.categoryName} Page

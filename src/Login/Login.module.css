@@ -26,4 +26,46 @@
 .login a {
     position: relative;
     left: 42%; 
+    color:rgb(145, 16, 16);
+}
+
+.usernameBox{
+    margin: 100px 37% 30px;
+}
+.passwordBox{
+    margin: 0 37% 50px;
+}
+registerLink{
+    color: rgb(138, 21, 21);
+    font-size: 14px;
+    text-decoration: underline;
+    display: block;
+}
+.loginBotton{
+    margin: 0 37% 17px;
+    color: gray;
+    font-size: 14px;
+    text-decoration: underline;
+    display: block;
+}
+.submit{
+    margin: 0 37% 300px;
+    width: 80px;
+    height: 40px;
+    background-color: orange;
+    border: gray;
+}
+.submit:hover{
+    background: #E5B687;
+}
+.alert{
+    font-weight: bold;
+    margin: 100px 37%;
+    color: orange
+}
+.welcome{
+    margin: 15% 25%;
+    font-size: 22px;
+    font-weight: bold;
+    color: grey;
 }

@@ -74,7 +74,7 @@ function App() {
         <Route path="/" exact component={Home} />
         
         <Route path="/register" exact component={Register} />
-        <Route path="/subscribe" exact component={Subscribe} />
+        <Route path="/login" exact component={Login} />
         <Route exact path="/recipes"><RecipesList recipes={fetchedData} /></Route>
         <Route path="/category" exact component={AllCategory} />
         {/* passing parameters via a route path */}

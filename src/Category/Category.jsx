@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Category.module.css";
 
-// <Link className={styles.categoryCard} to={recipe.detailURL}>
 const getCategoryTitle = (category, categoryID) => {
   if (category.id === categoryID) {
     return (

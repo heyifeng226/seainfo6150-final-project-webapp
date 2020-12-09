@@ -10,7 +10,7 @@ const Footer = () => {
               alt="myrecipes logo"
             />
             <p className={styles.text}> 
-            ©2020-{new Date().getFullYear()} MyRecipes
+            ©{new Date().getFullYear()} MyRecipes by Heyi Feng
             </p>
         </div>
     )

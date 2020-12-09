@@ -27,8 +27,8 @@ const Nav = () => {
           <Link className={styles.navTab} to="/contact">
             Contact Us
           </Link>
-          <Link className={styles.login} to="/subscribe">
-            Subscribe
+          <Link className={styles.login} to="/login">
+            Login
           </Link>
         </nav>
     )
