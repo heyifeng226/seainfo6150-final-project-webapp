@@ -2,7 +2,16 @@
     max-width: 60em;
     min-width: 20em;
     margin: auto;
-    
+    background-color: aliceblue;
+  }
+
+  .linkBox{
+    margin-bottom:20px;
+  }
+  .recipesBackLink {
+    text-decoration: none;
+    color: black;
+    font-family: Futura, Arial, sans-serif;
   }
   
   .recipeImg {
@@ -25,10 +34,12 @@
     margin-bottom: 30px;
     font-style: italic;
     font-family: Verdana, Helvetica, sans-serif;
+    text-align:left;
   }
   
   .recipeDetail {
     font-family: Verdana, Helvetica, sans-serif;
+    text-align:left;
   }
   
   .recipeBackLink {
@@ -38,6 +49,23 @@
     font-family: Futura, Arial, sans-serif;
   }
   
+  @media screen and (min-width: 400px) {
+    .recipeImg {
+      width: 400px;
+    }
+    .recipeName {
+      font-size: 20px;
+    }
+    .recipeTitle,
+    .recipeBackLink {
+      font-size: 15px;
+    }
+    .recipeDetail,
+    .recipeIngredients {
+      font-size: 12px;
+    }
+  }
+
   @media screen and (min-width: 600px) {
     .recipeImg {
       width: 400px;

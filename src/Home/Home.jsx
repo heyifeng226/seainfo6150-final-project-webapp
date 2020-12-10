@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from "../Form/Form";
+import { Link } from "react-router-dom";
 import styles from "./HomePage.module.css";
 
 const Home = () => {
@@ -12,6 +12,12 @@ const Home = () => {
       />
     
       <h1 className={styles.homeTitle}>Welcome to MyRecipes!!!</h1>
+      <p className={styles.categoryText}>
+        Never miss a recipe!
+        &nbsp;<Link className={styles.categoryBackLink} to="/register">
+        &lt; Register &gt;
+      </Link> for our Website to get new recipes!
+      </p>
     </div>
     )
 }

@@ -48,7 +48,9 @@ const Category = (props) => {
       )}
       <p className={styles.categoryText}>
         More Recipes in the Future!&nbsp;
-        &nbsp;our Website to see the Updates!
+        &nbsp;<Link className={styles.categoryBackLink} to="/register">
+        &lt; Sign up &gt;
+      </Link> for our Website to see the Updates!
       </p>
     </div>
   );

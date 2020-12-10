@@ -7,6 +7,12 @@ const getRecipeDetail = (recipe, recipeID) => {
     if (recipe.recipeID === recipeID) {
     return (
       <div className={styles.recipeContainer}>
+        <div className={styles.linkBox}>
+        <Link className={styles.recipesBackLink} to="/recipes">
+        &lt; Back to All Recipes Page
+      </Link>
+      </div>
+      <div>
         <img
           className={styles.recipeImg}
           src={recipe.imageURL}
@@ -20,7 +26,7 @@ const getRecipeDetail = (recipe, recipeID) => {
         <p className={styles.recipeDetail}>{recipe.details.two}</p>
         <p className={styles.recipeDetail}>{recipe.details.three}</p>
         <p className={styles.recipeDetail}>{recipe.details.four}</p>
-    
+        </div>
         <p>
           <Link className={styles.recipeBackLink} to={recipe.categoryURL}>
             &lt; Back to {recipe.categoryName} Page
