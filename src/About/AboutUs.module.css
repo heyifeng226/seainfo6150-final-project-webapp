@@ -2,129 +2,43 @@
     max-width: 60rem;
     min-width: 20em;
     margin: auto;
+    padding: 1px;
+    background-color: #F5F5F5;
+    font-size:20px;
+    width:80%;
+    height:auto;
   }
-  
-  .aboutImg {
-    margin-bottom: 30px;
-    border-radius: 10px;
-  }
-  
-  .aboutTitle {
-    font-weight: bold;
-    font-family: Tahoma, Geneva, sans-serif;
-  }
-  
-  .aboutDetail {
-    margin-bottom: 30px;
-    font-family: Verdana, Helvetica, sans-serif;
-  }
-  
-  .aboutSubscribe {
-    margin-bottom: 50px;
-    font-family: Verdana, Helvetica, sans-serif;
-  }
-  
-  .aboutSubscribeButton {
-    color: black;
-  }
-  
-  @media screen and (min-width: 600px) {
-    .aboutImg {
-      width: 400px;
-    }
-    .aboutTitle {
-      font-size: 15px;
-    }
-    .aboutDetail {
-      font-size: 12px;
-    }
-    .aboutSubscribe {
-      font-size: 12px;
-    }
-  }
-  
-  @media screen and (min-width: 900px) {
-    .aboutImg {
-      width: 500px;
-    }
-    .aboutTitle {
-      font-size: 18px;
-    }
-    .aboutDetail {
-      font-size: 14px;
-    }
-    .aboutSubscribe {
-      font-size: 14px;
-    }
-  }
-  
-  @media screen and (min-width: 1200px) {
-    .aboutImg {
-      width: 600px;
-    }
-    .aboutTitle {
-      font-size: 20px;
-    }
-    .aboutDetail {
-      font-size: 15px;
-    }
-    .aboutSubscribe {
-      font-size: 15px;
-    }
-  }
+
 
   .About_part img {
-	width: 60%;
-	float:inherit;
-	margin:2%;
-  height:auto;
-
-}
-.Team_part img {
-	width: 60%;
-	float:inherit;
-	margin:2%;
-  height:auto;
-
-}
-.Careers_part img {
-	width: 60%;
-	float:inherit;
-	margin:2%;
-  height:auto;
-
-}
-
-.About_part p {
-	padding: 1px;
-  margin-left: 20%;
-  background-color: #F5F5F5;
-  font-size:20px;
-  border:1px,solid,#F5F5F5;
-  width:60%;
-  height:auto;
-	text-align: left;
-
-}
-.Team_part p {
-	padding: 1px;
-  margin-left: 20%;
-  background-color: #F5F5F5;
-  font-size:20px;
-  border:1px,solid,#F5F5F5;
-  width:60%;
-  height:auto;
-	text-align: left;
-
-}
-.Careers_part p {
-  padding: 1px;
-  margin-left: 20%;
-  background-color: #F5F5F5;
-  font-size:20px;
-  border:1px,solid,#F5F5F5;
-  width:60%;
-  height:auto;
-	text-align: left;
-}
+    width: 60%;
+    float:inherit;
+    margin-left: 20%;
+    height:auto;
   
+  }
+  
+  
+  .About_part p {
+    padding: 1px;
+    margin-left: 20%;
+    background-color: #F5F5F5;
+    font-size:20px;
+    border:1px,solid,#F5F5F5;
+    width:60%;
+    height:auto;
+    text-align: left;
+  
+  }
+  
+  
+  .title {
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align:center;
+  }
+
+  
+  
+  
+

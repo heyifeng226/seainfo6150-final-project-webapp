@@ -12,7 +12,6 @@ import Category from "./Category/Category.jsx";
 import Detail from "./Detail/Detail.jsx";
 import Register from "./Register/Register.jsx";
 import Login from "./Login/Login.jsx";
-import Subscribe from "./Subscribe/Subscribe.jsx";
 import RecipesList from "./Recipes/RecipesList.jsx";
 import { isEmpty } from "lodash";
 

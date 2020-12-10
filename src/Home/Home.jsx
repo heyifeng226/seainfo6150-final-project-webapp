@@ -5,11 +5,9 @@ import styles from "./HomePage.module.css";
 const Home = () => {
     return (
         <div className={styles.homeContainer}>
-    <img
-        className={styles.homeImg}
-        src="https://food-images.files.bbci.co.uk/food/recipes/simple_fish_dish_98008_16x9.jpg"
-        alt="homepage"
-      />
+           <img className={styles.homeImg}
+                src="https://i.hexuexiao.cn/up/65/68/7a/f394100d455e5ff46426c1a6f97a6865.jpg"
+                alt="Homepage"/>
     
       <h1 className={styles.homeTitle}>Welcome to MyRecipes!!!</h1>
       <p className={styles.categoryText}>

@@ -46,12 +46,6 @@ const Category = (props) => {
       {props.content.map((recipe) =>
         getRecipePreview(recipe, props.categoryID)
       )}
-      <p className={styles.categoryText}>
-        More Recipes in the Future!&nbsp;
-        &nbsp;<Link className={styles.categoryBackLink} to="/register">
-        &lt; Sign up &gt;
-      </Link> for our Website to see the Updates!
-      </p>
     </div>
   );
 };

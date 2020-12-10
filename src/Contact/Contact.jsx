@@ -1,31 +1,63 @@
 import React from 'react';
 import styles from './Contact.module.css';
-import { Link } from 'react-router-dom';
-
-// <div className = {styles.background_image}></div>
 
 const Contact = () => (
-  <div>
-    <h1 className = {styles.headl}>Need help? Pick one of the following:</h1>
-    <h2> Or visit <Link to={`/about`} className={styles.contact_about}>About Us</Link> </h2>
-   
-    <div className = {styles.div_s}>
-      <div className = {styles.cont_block}>
-        <i className="fas fa-comments"></i>  Live Chat - We are online 24/7
-        <br></br>
-        <p>Not ready yet...Coming soon.</p>
-      </div>
-      <div className = {styles.cont_block}>
-        <i className="fas fa-map-marked-alt"></i>  Address 
-        <br></br>
-      </div>
-      <div className = {styles.cont_block}><i className="fas fa-phone-square"></i>  Call now at 2062060206</div>
-      <div className = {styles.cont_block}><i className="fab fa-facebook-square"></i>  <a href = 'https://www.facebook.com/'>Facebook </a></div>
-      <div className = {styles.cont_block}><i className="fas fa-envelope"></i>  Send us E-mail at SEAINFO6150@TRUECAR.COM</div>
-      <div className = {styles.cont_block}><i className="fab fa-twitter-square"></i> <a href = 'https://twitter.com/'>Twitter </a></div>
-      </div>
-
-  </div>
+  <section className={styles.contactContainer}>
+        <div className={styles.Contact_part}>
+            <h2 className={styles.title}>Contact Us</h2>
+            <img className={styles.bigImg}
+                src="https://www.mwheba.com/wp-content/uploads/2020/09/Contact-Us-banner.jpg"
+                alt="Contact"/>
+            <h3 className={styles.text}>Need Help? Get it now.</h3>
+            <div className={styles.method}>
+            <div>
+              <img
+              className={styles.logo}
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSSNwCOUh9OiIFJHTPGAaQcDzMJlS065XtEg&usqp=CAU"
+              alt="logo"
+            />
+              </div>
+              <h2 className={styles.subtitle}>By Phone</h2>
+              <div className={styles.desc}>
+                <small>(Mondy to Friday, 9am to 5pm PST)</small><br/>
+                North America Toll-Free:<br/>
+                1-111-111-1111<br/>
+                International:<br/>
+                1-222-222-2222<br/>
+              </div>
+            </div>
+            <div className={styles.method}>
+            <div>
+              <img
+              className={styles.logo}
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlX_7Iy5v4hGWd5RqxrxxBkTAwurwK9pC98A&usqp=CAU"
+              alt="logo"
+            />
+              </div>
+              <h2 className={styles.subtitle}>Live Chat</h2>
+              <div className={styles.desc}>
+                Chat with a member of our in-house team.<br/>
+                We are online 24/7<br/>
+                Not ready yet. Coming soon.<br/>
+              </div>
+            </div>
+            <div className={styles.method}>
+            <div>
+              <img
+              className={styles.logo}
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMEny7-sAxtOq60-jkos31mmaBoSl9mmlZQ&usqp=CAU"
+              alt="logo"
+            />
+              </div>
+              <h2 className={styles.subtitle}>By Email</h2>
+              <div className={styles.desc}>
+                Send us email at myrecipes@northeastern.com<br/>
+                We will response as soon as possible<br/>
+              </div>
+            </div>
+        
+        </div>
+    </section>
 );
 
 export default Contact;

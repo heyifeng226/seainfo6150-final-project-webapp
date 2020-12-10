@@ -4,8 +4,7 @@ body{
 }
 
 .homeContainer {
-  max-width: 60em;
-  min-width: 20em;
+  width: 80%;
   margin: auto;
   text-align: center;
   padding-bottom: 50px;
