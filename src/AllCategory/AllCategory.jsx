@@ -6,9 +6,7 @@ const AllCategory = () => {
   return (
     <div className={styles.allCategoryContainer}>
       <p className={styles.allCategoryDetail}>
-        Feel free to scroll down and click on the cards below.
-        <br />
-        Pick the categories you like and start exploring!
+        Pick the categories you like to explore recipes!
       </p>
 
       

@@ -17,13 +17,6 @@ import { isEmpty } from "lodash";
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
-const externalContent = {
-  id: "article-1",
-  title: "An Article",
-  author: "April Bingham",
-  text: "Some text in the article",
-};
-
 const allCategorys = {
   Soup: { id: "1", name: "Soup" },
   Appetizer: { id: "2", name: "Appetizer" },
@@ -62,16 +55,14 @@ function App() {
             // getting the parameters from the url and passing
             // down to the component as props
             <Detail
-              categoryID={match.params.categoryID}
               recipeID={match.params.recipeID}
-              content={Object.values(fetchedData)}
+              recipes={Object.values(fetchedData)}
             />
           )}
         />
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
-        
         <Route path="/register" exact component={Register} />
         <Route path="/login" exact component={Login} />
         <Route exact path="/recipes"><RecipesList recipes={fetchedData} /></Route>
@@ -84,7 +75,7 @@ function App() {
             <Category
               categoryID={match.params.categoryID}
               categorys={Object.values(allCategorys)}
-              content={Object.values(fetchedData)}
+              recipes={Object.values(fetchedData)}
             />
           )}
         />
@@ -96,7 +87,7 @@ function App() {
             // down to the component as props
             <Detail
               recipeID={match.params.recipeID}
-              content={Object.values(fetchedData)}
+              recipes={Object.values(fetchedData)}
             />
           )}
         />

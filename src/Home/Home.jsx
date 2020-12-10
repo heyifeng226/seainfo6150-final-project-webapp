@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className={styles.homeContainer}>
            <img className={styles.homeImg}
-                src="https://i.hexuexiao.cn/up/65/68/7a/f394100d455e5ff46426c1a6f97a6865.jpg"
+                src="https://i.keaitupian.net/up/7b/e9/bb/c48adec6c91a1ed2ec5e6b7f65bbe97b.jpg"
                 alt="Homepage"/>
     
       <h1 className={styles.homeTitle}>Welcome to MyRecipes!!!</h1>
