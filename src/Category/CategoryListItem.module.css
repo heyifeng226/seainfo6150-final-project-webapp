@@ -25,20 +25,6 @@
 background-image: linear-gradient(to right bottom, #f1d690, #db9a96);
 */
 
-.title {
-    color: #c00;
-    margin: 0 0 20px;
-    text-decoration: underline;
-}
-
-.text {
-    font-size: 12px;
-    margin: 0 0 20px;
-}
-
-.time {
-    font-weight: bold;
-}
 
 
 .ItemContainer{
@@ -47,86 +33,10 @@ background-image: linear-gradient(to right bottom, #f1d690, #db9a96);
     display: grid;
     grid-template-rows: 80% 20%;
 }
-.recipe__link:link,
-.recipe__link:visited{
-  display: flex;
-  align-items: center;
-  transition: all 0.3s;
-  text-decoration: none;
-}
-.recipe__link:hover,
-.likes__link:hover {
-  background-color: #f9f5f3;
-  transform: translateY(-2px);
-}
-.recipe__link--active,
-.likes__link--active {
-  background-color: #f9f5f3;
-}
-.recipe__fig {
-  flex: 0 0 16rem;
-  border-radius: 10%;
-  overflow: hidden;
-  height: 16rem;
-  margin-right: 2rem;
-  position: relative;
-  backface-visibility: hidden;
-}
-.recipe__fig::before{
-  content: "";
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.4;
-}
-.recipe__fig img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.3s;
-}
-.recipe__name{
-  font-size: 1rem;
-  color: #0d4d96;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 0.3rem;
-  text-align: center;
-}
-.recipe__author{
-  font-size: 0.7rem;
-  color: #a1b5c7;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.recipe__pages{
-  margin-top: 3rem;
-  padding: 0 3rem;
-}
-.recipe__pages::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-.recipe__btn--prev {
-  float: left;
-  flex-direction: row-reverse;
-}
-.recipe__btn--next{
-  float: right;
-}.categoryContainer {
-  max-width: 60em;
-  min-width: 20em;
-  margin: auto;
-}
 
 .categoryBackLink {
   text-decoration: none;
-  color: black;
+  color: rgb(41, 125, 221);
   font-family: Futura, Arial, sans-serif;
 }
 
@@ -137,21 +47,23 @@ background-image: linear-gradient(to right bottom, #f1d690, #db9a96);
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-.categoryCard {
-  text-decoration: none;
+.grid_style {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-top: 50px;
-  
-  border-radius: 50px;
-  padding: 50px;
+  grid-template-columns:repeat(2,1fr);
+  grid-gap:20px;
+}
+.ListContainer {
+  padding: 3rem 0;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
+
+
 .categoryRecipeImg {
-  grid-column-start: 1;
-  grid-column-end: 2;
   align-self: center;
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -160,6 +72,7 @@ background-image: linear-gradient(to right bottom, #f1d690, #db9a96);
   grid-column-end: 3;
   align-self: center;
   padding-left: 50px;
+  padding-right:50px;
 }
 
 .categoryRecipeName {
@@ -169,10 +82,9 @@ background-image: linear-gradient(to right bottom, #f1d690, #db9a96);
 }
 
 .categoryRecipeDescription {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  text-decoration:none;
   font-style: italic;
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: Verdana, Helvetica, sans-serif;
 }
 
@@ -182,13 +94,26 @@ background-image: linear-gradient(to right bottom, #f1d690, #db9a96);
   font-family: Futura, Arial, sans-serif;
 }
 
-.categorySubscribe {
-  color: black;
-}
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 400px) {
   .categoryBackLink {
+    font-size: 10px;
+  }
+  .categoryTitle {
+    font-size: 20px;
+  }
+  .categoryRecipeName {
     font-size: 15px;
+  }
+  .categoryRecipeDescription {
+    font-size: 9px;
+  }
+  .categoryText {
+    font-size: 15px;
+  }
+  } 
+  @media screen and (min-width: 600px) {
+  .categoryBackLink {
+    font-size: 20px;
   }
   .categoryTitle {
     font-size: 20px;
@@ -202,11 +127,11 @@ background-image: linear-gradient(to right bottom, #f1d690, #db9a96);
   .categoryText {
     font-size: 15px;
   }
-}
-
-@media screen and (min-width: 900px) {
+  }
+  
+  @media screen and (min-width: 900px) {
   .categoryBackLink {
-    font-size: 18px;
+    font-size: 25px;
   }
   .categoryTitle {
     font-size: 22px;
@@ -215,27 +140,29 @@ background-image: linear-gradient(to right bottom, #f1d690, #db9a96);
     font-size: 18px;
   }
   .categoryRecipeDescription {
-    font-size: 14px;
+    font-size: 15px;
   }
   .categoryText {
-    font-size: 18px;
+    font-size: 15px;
   }
-}
-
-@media screen and (min-width: 1200px) {
+  }
+  
+  @media screen and (min-width: 1200px) {
   .categoryBackLink {
-    font-size: 20px;
+    font-size: 28px;
   }
   .categoryTitle {
-    font-size: 25px;
+    font-size: 30px;
   }
   .categoryRecipeName {
     font-size: 20px;
   }
   .categoryRecipeDescription {
-    font-size: 15px;
+    font-size: 18px;
   }
   .categoryText {
-    font-size: 20px;
+    font-size: 18px;
   }
-}
+  }
+  
+

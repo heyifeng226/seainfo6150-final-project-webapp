@@ -34,7 +34,7 @@ const Login = () => {
             </div>
             <div className={styles.passwordBox}>
               <label htmlFor="password">Password: </label><br/>
-              <input type="text" className={styles.input} name="password" id="password" required="required" placeholder="Please Enter Password"/>
+              <input type="password" className={styles.input} name="password" id="password" required="required" placeholder="Please Enter Password"/>
             </div>
             <div className={styles.alertBox}>Dont't have an account?<Link to="/register" className={styles.registerLink}>Register here</Link></div>
             <input className={styles.submit} type="submit" value="Login in" />

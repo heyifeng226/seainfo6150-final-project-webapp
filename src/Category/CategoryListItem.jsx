@@ -3,11 +3,12 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import styles from "./CategoryListItem.module.css";
 
-const CategoryListItem = (recipe, categoryID) => {
-  if (recipe.categoryID === categoryID) {
+const CategoryListItem = (props) => {
+  
+    const recipe=props.recipe;
     return (
       <div>
-        <Link className={styles.categoryCard} to={recipe.detailURL}>
+        <Link className={styles.ListContainer} to={recipe.detailURL}>
           <img
             src={recipe.imageURL}
             alt={recipe.name}
@@ -21,12 +22,10 @@ const CategoryListItem = (recipe, categoryID) => {
           </div>
         </Link>
       </div>
-    );
-  }
+    )
 };
 
 CategoryListItem.propTypes = {
   recipe: PropTypes.object.isRequired,
-  categoryID: PropTypes.number.isRequired
 };
 export default CategoryListItem;

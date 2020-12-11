@@ -2,34 +2,43 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Category.module.css";
 import CategoryListItem from "./CategoryListItem.jsx";
-
-const getCategoryTitle = (category, categoryID) => {
-  if (category.id === categoryID) {
-    return (
-      <div className={styles.categoryTitle}>
-        <p>{category.name}</p>
-      </div>
-    );
-  }
-};
+import PropTypes from "prop-types";
 
 
 const Category = (props) => {
-  return (
-    
-    <div className={styles.categoryContainer}>
-      {props.categorys.map((category) =>
-        getCategoryTitle(category, props.categoryID)
-      )}
-      {props.recipes.map((recipe) =>
-        CategoryListItem(recipe, props.categoryID)
-      )}
+
+  let displayContent;
+
+  if (props.recipes.length) {
+    displayContent = (
+      <div className={styles.categoryContainer}>
+      <h2 className={styles.categoryTitle}>{props.categoryName}</h2>
       <Link className={styles.categoryBackLink} to="/category">
         &lt; Back to All Category Page
       </Link>
+      <div className={styles.itemContainer}>
+      {props.recipes.map((recipe) =>
+         recipe.categoryName == props.categoryName ? 
+          <CategoryListItem recipe={recipe} key={recipe.ID} />:null
+       )}
+      </div>
     </div>
-    
+    );
+  } else {
+    displayContent = <div>You have no data!</div>;
+  }
+
+  return (
+    <div >
+        {displayContent}
+    </div>
   );
 };
+
+Category.propTypes = {
+    recipes: PropTypes.array.isRequired,
+    categoryName:PropTypes.string.isRequired
+}
+  
 
 export default Category;

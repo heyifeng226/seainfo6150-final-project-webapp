@@ -43,23 +43,11 @@ function App() {
 
   return isEmpty(fetchedData) ? null : (
     <div className="App">
+    
       <header>
           <Nav/>
       </header>
       {/* A <Switch> looks through its children <Route>s and
-      <Route path="/login" exact component={Login} />
-      <Route
-          path="/category/:categoryID/:recipeID"
-          exact
-          render={({ match }) => (
-            // getting the parameters from the url and passing
-            // down to the component as props
-            <Detail
-              recipeID={match.params.recipeID}
-              recipes={Object.values(fetchedData)}
-            />
-          )}
-        />
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
@@ -69,13 +57,13 @@ function App() {
         <Route path="/category" exact component={AllCategory} />
         {/* passing parameters via a route path */}
         <Route
-          path="/category/:categoryID"
+          path="/category/:categoryName"
           exact
           render={({ match }) => (
             <Category
-              categoryID={match.params.categoryID}
-              categorys={Object.values(allCategorys)}
-              recipes={Object.values(fetchedData)}
+              categoryName={match.params.categoryName}
+              categorys={allCategorys}
+              recipes={fetchedData}
             />
           )}
         />
@@ -87,7 +75,7 @@ function App() {
             // down to the component as props
             <Detail
               recipeID={match.params.recipeID}
-              recipes={Object.values(fetchedData)}
+              recipes={fetchedData}
             />
           )}
         />
@@ -98,7 +86,9 @@ function App() {
       <footer>
         <Footer/>
       </footer>
+    
     </div>
+    
   );
 }
 

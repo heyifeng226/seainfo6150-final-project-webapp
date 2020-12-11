@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error tests renders correctly 1`] = `
+<div>
+  <div
+    class="error"
+  >
+    <section
+      class="errorContainer"
+    >
+      <h1>
+        Oops Sorry!
+      </h1>
+      <p>
+        It seems that something went wrong :(
+      </p>
+      <img
+        alt="error"
+        src="https://miro.medium.com/max/800/1*hFwwQAW45673VGKrMPE2qQ.png"
+      />
+    </section>
+  </div>
+</div>
+`;

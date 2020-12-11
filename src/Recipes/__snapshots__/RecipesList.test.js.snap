@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the RecipesList component correctly 1`] = `
+<div>
+  <div
+    class="ListContainer"
+  >
+    <div>
+      You have no data!
+    </div>
+  </div>
+</div>
+`;

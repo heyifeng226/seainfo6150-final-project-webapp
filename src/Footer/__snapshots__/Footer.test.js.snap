@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register tests renders correctly 1`] = `
+<div>
+  <div
+    class="footer"
+  >
+    <img
+      alt="myrecipes logo"
+      class="logo"
+      src="https://cdn.imgbin.com/5/24/23/imgbin-chef-s-uniform-icon-chef-chef-hat-illustration-jtTMYSpLDGAG8eBgfNTWJP5pP.jpg"
+    />
+    <p
+      class="text"
+    >
+      ©
+      2020
+       MyRecipes by Heyi Feng. All rights reserved.
+    </p>
+  </div>
+</div>
+`;

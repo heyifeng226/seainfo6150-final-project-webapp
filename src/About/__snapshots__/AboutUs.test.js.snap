@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUs tests renders correctly 1`] = `
+<div>
+  <section
+    class="aboutContainer"
+  >
+    <div
+      class="About_part"
+    >
+      <h2
+        class="title"
+      >
+        About Us
+      </h2>
+      <img
+        alt="About Us"
+        src="https://www.careeraddict.com/uploads/article/58721/illustration-group-people-team-meeting.jpg"
+      />
+      <p>
+        Hello and welcome to MyRecipes! Thank you so much for stopping by the site! If you are new to MyRecipes, the one thing you should know about us is that we are obsessed with creating scratch cooking recipes that you will love.
+      </p>
+      <p>
+        MyRecipes was founded in 2020, and was produced by a team of experienced cooks devoted to high quality, accessible home cooking. MyRecipes is an original and food-focused social network created for cooks by cooks; where everyone plays a part in helping cooks discover and share the joy of cooking
+      </p>
+      <p>
+        Our goal is to encourage people to cook at home, and to make the process of feeding your family and loved ones less intimidating and more enjoyable. Our recipes are all tested in our own home kitchens, usually several times.
+      </p>
+      <p>
+        Cooking Smarter. Together.
+      </p>
+      <p>
+        Thanks so much for visiting MyRecipes!
+      </p>
+    </div>
+  </section>
+</div>
+`;
