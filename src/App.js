@@ -31,7 +31,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       // performs a GET request
-      const response = await fetch("http://demo9484100.mockable.io/recipes");
+      const response = await fetch("https://demo9484100.mockable.io/recipes");
       const responseJson = await response.json();
       setFetchedData(Object.values(responseJson));
     };
